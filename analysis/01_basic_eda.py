@@ -16,7 +16,7 @@ sns.set(style="ticks", context="talk")
 def summarize(df: pd.DataFrame, name: str):
     print(f"\n=== {name.upper()} ===")
     print(df.head())
-    print(df.describe(include="all", datetime_is_numeric=True).transpose())
+    print(df.describe(include="all").transpose())
 
 
 def main():
