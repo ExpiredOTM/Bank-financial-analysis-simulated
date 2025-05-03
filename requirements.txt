@@ -1,0 +1,8 @@
+pandas==2.2.3
+numpy==2.2.5
+faker==37.1.0
+matplotlib>=3.7.1
+seaborn>=0.12.2
+scikit-learn>=1.2.2
+plotly>=5.15.0
+scipy>=1.11.1 
